@@ -1,0 +1,129 @@
+[{
+  "_id": {
+    "$oid": "64d7600e0e9a6ae8277a77a9"
+  },
+  "datumIzvestaja": "Sat Aug 12 2023 11:00:00 GMT+0200 (Central European Summer Time)",
+  "vreme": "11:00",
+  "datumPregleda": "Sat Aug 12 2023 11:00:00 GMT+0200 (Central European Summer Time)",
+  "pacijent": "pera",
+  "lekar": "laza",
+  "imeLekara": "Laza",
+  "prezimeLekara": "Lazaric",
+  "razlogDolaska": "bol",
+  "dijagnoza": "lele",
+  "preporucenaTerapija": "ima",
+  "datumKontrole": "Sat Dec 16 2023 11:00:00 GMT+0200 (Central European Summer Time)"
+},
+{
+  "_id": {
+    "$oid": "64d7600e0e9a6ae8277a77aa"
+  },
+  "datumIzvestaja": "Sat Aug 10 2023 13:00:00 GMT+0200 (Central European Summer Time)",
+  "vreme": "13:00",
+  "datumPregleda": "Sat Aug 10 2023 13:00:00 GMT+0200 (Central European Summer Time)",
+  "pacijent": "zika",
+  "lekar": "mika",
+  "imeLekara": "Mika",
+  "prezimeLekara": "Mikic",
+  "razlogDolaska": "joj",
+  "dijagnoza": "lagano",
+  "preporucenaTerapija": "ne",
+  "datumKontrole": "Sat Nov 10 2023 11:00:00 GMT+0200 (Central European Summer Time)"
+},
+{
+  "_id": {
+    "$oid": "64d7600e0e9a6ae8277a77ab"
+  },
+  "datumIzvestaja": "Sat Aug 11 2023 14:00:00 GMT+0200 (Central European Summer Time)",
+  "vreme": "14:00",
+  "datumPregleda": "Sat Aug 11 2023 14:00:00 GMT+0200 (Central European Summer Time)",
+  "pacijent": "pera",
+  "lekar": "ceda",
+  "imeLekara": "Cedomir",
+  "prezimeLekara": "Cedomir",
+  "razlogDolaska": "postoji",
+  "dijagnoza": "bolest",
+  "preporucenaTerapija": "da",
+  "datumKontrole": "Sat Dec 11 2023 14:00:00 GMT+0200 (Central European Summer Time)"
+},
+{
+  "_id": {
+    "$oid": "64d7982b7d44c2824cba6dcd"
+  },
+  "datumIzvestaja": "Sat Aug 12 2023 16:32:44 GMT+0200 (Central European Summer Time)",
+  "vreme": "16:32",
+  "datumPregleda": "Sat Aug 12 2023 13:20:00 GMT+0200 (Central European Summer Time)",
+  "pacijent": "pera",
+  "lekar": "laza",
+  "imeLekara": "Laza",
+  "prezimeLekara": "Lazaric",
+  "razlogDolaska": "pokusaj",
+  "dijagnoza": "i ovo",
+  "preporucenaTerapija": "i ovo takodje",
+  "datumKontrole": "2023-09-01",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d79a1a7d44c2824cba6dfc"
+  },
+  "datumIzvestaja": "Sat Aug 12 2023 16:41:20 GMT+0200 (Central European Summer Time)",
+  "vreme": "16:41",
+  "datumPregleda": "Thu Aug 11 2023 13:00:00 GMT+0200 (Central European Summer Time)",
+  "pacijent": "pera",
+  "lekar": "mika",
+  "imeLekara": "Mika",
+  "prezimeLekara": "Mitrovic",
+  "razlogDolaska": "asdadadad",
+  "dijagnoza": "asdadada",
+  "preporucenaTerapija": "sdafssdffffffffffffffff",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64da0fb159e03e3b508812fa"
+  },
+  "datumIzvestaja": "Mon Aug 14 2023 13:27:22 GMT+0200 (Central European Summer Time)",
+  "vreme": "13:27",
+  "datumPregleda": "Mon Aug 14 2023 13:24:00 GMT+0200 (Central European Summer Time)",
+  "pacijent": "pera",
+  "lekar": "mara",
+  "imeLekara": "Mara",
+  "prezimeLekara": "Maric",
+  "razlogDolaska": "obrisan pregled razloga",
+  "dijagnoza": "obrisan pregled  d",
+  "preporucenaTerapija": "obrisan pregled  ter",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4a8464955e1442792dce8"
+  },
+  "datumIzvestaja": "Tue Aug 22 2023 14:21:00 GMT+0200 (Central European Summer Time)",
+  "vreme": "14:21",
+  "datumPregleda": "Tue Aug 22 2023 11:00:00 GMT+0200 (Central European Summer Time)",
+  "pacijent": "pera",
+  "lekar": "laza",
+  "imeLekara": "Laza",
+  "prezimeLekara": "Lazaric",
+  "razlogDolaska": "neki razlog ima tu",
+  "dijagnoza": "odmarajte",
+  "preporucenaTerapija": "krevet",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4acf14955e1442792ddb3"
+  },
+  "datumIzvestaja": "Tue Aug 22 2023 14:41:13 GMT+0200 (Central European Summer Time)",
+  "vreme": "14:41",
+  "datumPregleda": "Tue Aug 22 2023 14:41:00 GMT+0200 (Central European Summer Time)",
+  "pacijent": "zika",
+  "lekar": "brisi",
+  "imeLekara": "Bris",
+  "prezimeLekara": "Brisic",
+  "razlogDolaska": "fgffff",
+  "dijagnoza": "gfgfgfg",
+  "preporucenaTerapija": "fdgyhfghfgh",
+  "__v": 0
+}]

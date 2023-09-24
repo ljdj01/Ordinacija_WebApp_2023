@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "64d932a347b4088309422a2d"
+  },
+  "lekar": "laza",
+  "specijalizacija": "neurologija",
+  "opis": "tehnika",
+  "cena": 1300,
+  "trajanje": 25,
+  "__v": 0
+}]

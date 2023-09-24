@@ -1,0 +1,248 @@
+<!--navbar ideja https://getbootstrap.com/docs/5.3/components/navbar/-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href=""><img src="../../assets/logo2.png" class="navbar-brand" width="50" height="50" id="vrh">Ordinacija Doktorović</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end align-center" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="" *ngIf="tipKorisnika != 'menadzer'">Nazad</a>
+            <a class="nav-link" href="/menadzer" *ngIf="tipKorisnika == 'menadzer'">Nazad</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<!--forma ideja https://mdbootstrap.com/docs/standard/extended/registration/-->
+<section class="vh-100 bg-image"
+  style="background-image: url('../../assets/reg-pozadina2.jpg');">
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3  overflow-auto">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-5">
+              <h2 class="text-uppercase text-center mb-5">Registracija</h2>
+
+              <form>
+
+                <div class="form-outline mb-4">
+                  <input type="text" name="formKorIme" class="form-control form-control-lg" [(ngModel)]="korisnicko_ime">
+                  <label class="form-label" for="formKorIme">Vaše željeno korisničko ime:</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="password" name="formLoz" class="form-control form-control-lg" [(ngModel)]="lozinka">
+                  <label class="form-label" for="formLoz">Lozinka:</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="password" name="formPot" class="form-control form-control-lg" [(ngModel)]="lozinkaPotvrda">
+                  <label class="form-label" for="formPot">Potvrdite lozinku:</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" name="formIme" class="form-control form-control-lg" [(ngModel)]="ime">
+                  <label class="form-label" for="formIme">Ime:</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <input type="text" name="formPre" class="form-control form-control-lg" [(ngModel)]="prezime">
+                    <label class="form-label" for="formPre">Prezime:</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <input type="text" name="formAdr" class="form-control form-control-lg" [(ngModel)]="adresa">
+                    <label class="form-label" for="formAdr">Adresa:</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <input type="text" name="formKonTel" class="form-control form-control-lg" [(ngModel)]="kontakt_telefon">
+                    <label class="form-label" for="formKonTel">Kontakt telefon:</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                    <input type="text" name="formEmail" class="form-control form-control-lg" [(ngModel)]="email">
+                    <label class="form-label" for="formEmail">Email:</label>
+                </div>
+
+                <div class="form-outline mb-4" *ngIf="tipKorisnika == 'menadzer'">
+                  <select name="formSpec" class="form-select form-select-lg" [(ngModel)]="specijalizacija">
+                      <option *ngFor="let s of sveSpec" value="{{s.naziv}}">{{s.naziv}}</option>
+                  </select>
+                  <label class="form-label" for="formSpec">Specijalizacija:</label>
+                </div>
+                <div class="form-outline mb-4" *ngIf="tipKorisnika == 'menadzer'">
+                  <input type="text" name="formOgra" class="form-control form-control-lg" [(ngModel)]="ogranak">
+                  <label class="form-label" for="formOgra">Ogranak:</label>
+                </div>
+                <div class="form-outline mb-4" *ngIf="tipKorisnika == 'menadzer'">
+                  <input type="text" name="formBrlic" class="form-control form-control-lg" [(ngModel)]="brLicence">
+                  <label class="form-label" for="formBrlic">Br. licence:</label>
+                </div>
+
+                <div class="row align-items-center py-1 form-outline mb-4">
+                    <label class="form-label" for="image">Slika:</label>
+                    <input class="form-control form-control-lg" type="file" name="image" (change)="selectImage($event)">
+                    <div class="small text-muted mt-2">Dimezije moraju biti u okviru od 100x100px do 300x300px</div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                  <button type="button"
+                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" (click)="registruj()">Registracija</button>
+                </div>
+
+                <p class="text-center text-muted mt-5 mb-0" *ngIf="tipKorisnika != 'menadzer'">Već imate nalog? <a href="/login"
+                    class="fw-bold text-body"><u>Prijavite se</u></a></p>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--footer ideja sa sajta https://mdbootstrap.com/docs/standard/navigation/footer/-->
+<footer class="text-center text-lg-start bg-light text-muted">
+  
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    </section>
+    
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Ordinacija Doktorović
+            </h6>
+            <p>
+              Ordinacija Doktorović počela je sa radom sada već davne 2015. godine.
+              Danas smo jedna od najpouzdanijih i najopremljnijih ordinacija u Beogradu.
+            </p>
+          </div>
+  
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Linkovi
+            </h6>
+            <p>
+              <a href="" class="text-reset">Početna</a>
+            </p>
+            <p>
+              <a href="#tim" class="text-reset">Naš tim</a>
+            </p>
+            <p>
+              <a href="/login" class="text-reset">Prijava</a>
+            </p>
+            <p>
+              <a href="/registracija" class="text-reset">Registracija</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4" id="kontakt">Kontakt</h6>
+            <p><img src="../../assets/home.png" width="20" height="20"> Bulevar Neki 14a, 11000 Beograd, Srbija</p>
+            <p>
+              <img src="../../assets/mail.png" width="20" height="20">
+              ordinacija@doktorovic.com
+            </p>
+            <p><img src="../../assets/call.png" width="20" height="20"> 011 124 1551</p>
+            <p><img src="../../assets/radno_vreme.jpg" width="20" height="20"> Radno vreme: 09 - 17h </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold">dl200129d</a>
+    </div>
+  </footer>
+
+<!--
+<p>Unesite potrebne podatke za registraciju:</p>
+<table>
+    <tr>
+        <td colspan="3"><hr/></td>
+    </tr>
+    <tr>
+        <td>Korisnicko ime:</td>
+        <td><input type="text" [(ngModel)]="korisnicko_ime"></td>
+        <td>ode dodje poruka</td>
+    </tr>
+    <tr>
+        <td>Lozinka:</td>
+        <td><input type="password" [(ngModel)]="lozinka"></td>
+        <td>ode dodje poruka</td>
+    </tr>
+    <tr>
+        <td>Potvrda lozinke:</td>
+        <td><input type="password" [(ngModel)]="lozinkaPotvrda"></td>
+        <td>ode dodje poruka</td>
+    </tr>
+    <tr>
+        <td>Ime:</td>
+        <td><input type="text" [(ngModel)]="ime"></td>
+        <td>ode dodje poruka</td>
+    </tr>
+    <tr>
+        <td>Prezime:</td>
+        <td><input type="text" [(ngModel)]="prezime"></td>
+        <td>ode dodje poruka</td>
+    </tr>
+    <tr>
+        <td>Adresa:</td>
+        <td><input type="text" [(ngModel)]="adresa"></td>
+        <td>ode dodje poruka</td>
+    </tr>
+    <tr>
+        <td>Kontakt telefon:</td>
+        <td><input type="text" [(ngModel)]="kontakt_telefon"></td>
+        <td>ode dodje poruka</td>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td><input type="text" [(ngModel)]="email"></td>
+        <td>ode dodje poruka</td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            Izaberite profilnu sliku (opciono):<br>
+        </td>
+    </tr>
+   <tr>
+    <td>
+        <div style="text-align: center">
+            <form>
+                
+            <div>
+                
+                <input type="file" name="image" (change)="selectImage($event)" />
+            </div>
+            <br>
+            
+            </form>
+        </div>
+    </td>
+    <td>
+        <div *ngIf="imageData">
+            <img [src]="imageData">
+        </div>
+        <div *ngIf="!imageData">
+            <img src="http://localhost:4000/images/defaultProfileImage.png">
+        </div>
+    </td>
+        
+      
+   </tr>
+    <tr>
+        <td colspan="3" align="center"><button (click)="registruj()">Registrujte se</button></td>
+    </tr>
+</table>
+-->
+
+

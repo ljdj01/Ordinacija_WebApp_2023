@@ -1,0 +1,143 @@
+[{
+  "_id": {
+    "$oid": "64d630cd966044bdea8ed8f7"
+  },
+  "procitano": true,
+  "salje": "laza",
+  "kome": "pera",
+  "poruka": "izvini brate pero nmg",
+  "pregled": "mozda nepotrebno",
+  "datum": "Thu Aug 10 2023 13:30:00 GMT+0200 (Central European Summer Time)"
+},
+{
+  "_id": {
+    "$oid": "64d630cd966044bdea8ed8f8"
+  },
+  "procitano": false,
+  "salje": "sistem",
+  "kome": "svima",
+  "poruka": "AKCIJA! FOTO! VIDEO! NEVEROVATNO!",
+  "pregled": "mozda nepotrebno",
+  "datum": "Thu Aug 11 2023 10:30:00 GMT+0200 (Central European Summer Time)"
+},
+{
+  "_id": {
+    "$oid": "64d630cd966044bdea8ed8f9"
+  },
+  "procitano": true,
+  "salje": "ana",
+  "kome": "pera",
+  "poruka": "izvini ropeeee",
+  "pregled": "mozda nepotrebno",
+  "datum": "Thu Aug 11 2023 13:30:00 GMT+0200 (Central European Summer Time)"
+},
+{
+  "_id": {
+    "$oid": "64d68435a394e8a249473305"
+  },
+  "procitano": true,
+  "salje": "laza",
+  "kome": "zika",
+  "poruka": "Obaveštenje o pregledu (neurologijaPregled2) zakazanom za 19.8.2023. u 12:00.\nPostovani gospodine Zikicu nazalost necu moci da vas primim na yakayani pregled usled zimovanja cao",
+  "datum": "Fri Aug 11 2023 20:55:49 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d684bea394e8a24947332c"
+  },
+  "procitano": true,
+  "salje": "laza",
+  "kome": "zika",
+  "poruka": "Obaveštenje o pregledu (neurologijaPregled1) zakazanom za 12.8.2023. u 13:57.\nggggggggggggggggggggggggggggggggggggggg",
+  "datum": "Fri Aug 11 2023 20:58:06 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d79d467d44c2824cba6ef7"
+  },
+  "procitano": false,
+  "salje": "laza",
+  "kome": "zika",
+  "poruka": "Obaveštenje o pregledu (neurologijaPregled1) zakazanom za 24.8.2023. u 14:00.\nzao mi je ziko neeeee",
+  "datum": "Sat Aug 12 2023 16:55:02 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d7e6197111fed16cfc0c11"
+  },
+  "procitano": true,
+  "salje": "laza",
+  "kome": "pera",
+  "poruka": "Obaveštenje o pregledu (neurologijaPregled1) zakazanom za 1.9.2023. u 14:00.\nidem na odmor malo",
+  "datum": "Sat Aug 12 2023 22:05:45 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d90bc9401e44fbeb845432"
+  },
+  "procitano": false,
+  "salje": "sistem",
+  "kome": "svima",
+  "poruka": "Lekar Zeljko Zeljkovic (alergologija) je više ne radi. Svi njegovi pregledi su otkazani do daljnjeg.",
+  "datum": "Sun Aug 13 2023 18:58:49 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d90e4f401e44fbeb8454d4"
+  },
+  "procitano": true,
+  "salje": "mara",
+  "kome": "tarar",
+  "poruka": "Obaveštenje o pregledu (otorinolarignologijaPregled1) zakazanom za 22.8.2023. u 09:09.\nko si ti",
+  "datum": "Sun Aug 13 2023 19:09:35 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64da0fee59e03e3b50881317"
+  },
+  "procitano": false,
+  "salje": "sistem",
+  "kome": "svima",
+  "poruka": "Pregled orlBrisanje (otorinolaringologija, sluzi za proveru) se više neće vršiti u ordinaciji.",
+  "datum": "Mon Aug 14 2023 13:28:46 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4a7d44955e1442792dcd5"
+  },
+  "procitano": true,
+  "salje": "laza",
+  "kome": "zika",
+  "poruka": "Obaveštenje o pregledu (neurologijaPregled1) zakazanom za 15.8.2023. u 10:30.\nnazalost itd",
+  "datum": "Tue Aug 22 2023 14:19:32 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4ad154955e1442792ddc3"
+  },
+  "procitano": false,
+  "salje": "sistem",
+  "kome": "svima",
+  "poruka": "Pregled asdasdas (otorinolaringologija, adsfasdfasd) se više neće vršiti u ordinaciji.",
+  "datum": "Tue Aug 22 2023 14:41:57 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4ad514955e1442792dde4"
+  },
+  "procitano": false,
+  "salje": "sistem",
+  "kome": "svima",
+  "poruka": "Lekar Bris Brisic (otorinolaringologija) više neće radi. Svi njegovi pregledi su otkazani do daljnjeg.",
+  "datum": "Tue Aug 22 2023 14:42:57 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+}]

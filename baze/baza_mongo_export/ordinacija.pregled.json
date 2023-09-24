@@ -1,0 +1,152 @@
+[{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4fee"
+  },
+  "sifra": "pedijatrijaPregled1",
+  "specijalizacija": "pedijatrija",
+  "opis": "pregled",
+  "cena": 1000,
+  "trajanje": 10
+},
+{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4fef"
+  },
+  "sifra": "pedijatrijaPregled2",
+  "specijalizacija": "pedijatrija",
+  "opis": "pregled",
+  "cena": 2000,
+  "trajanje": 20
+},
+{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4ff0"
+  },
+  "sifra": "pedijatrijaPregled3",
+  "specijalizacija": "pedijatrija",
+  "opis": "pregled",
+  "cena": 3000,
+  "trajanje": 30
+},
+{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4ff1"
+  },
+  "sifra": "neurologijaPregled1",
+  "specijalizacija": "neurologija",
+  "opis": "pregled",
+  "cena": 1500,
+  "trajanje": 30
+},
+{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4ff2"
+  },
+  "sifra": "neurologijaPregled2",
+  "specijalizacija": "neurologija",
+  "opis": "pregled",
+  "cena": 4000,
+  "trajanje": 60
+},
+{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4ff3"
+  },
+  "sifra": "alergologijaPregled1",
+  "specijalizacija": "alergologija",
+  "opis": "pregled",
+  "cena": 1000,
+  "trajanje": 25
+},
+{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4ff4"
+  },
+  "sifra": "alergologijaPregled2",
+  "specijalizacija": "alergologija",
+  "opis": "pregled",
+  "cena": 2500,
+  "trajanje": 40
+},
+{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4ff5"
+  },
+  "sifra": "alergologijaPregled3",
+  "specijalizacija": "alergologija",
+  "opis": "pregled",
+  "cena": 3000,
+  "trajanje": 30
+},
+{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4ff6"
+  },
+  "sifra": "kardiologijaPregled1",
+  "specijalizacija": "kardiologija",
+  "opis": "pregled",
+  "cena": 500,
+  "trajanje": 10
+},
+{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4ff7"
+  },
+  "sifra": "kardiologijaPregled2",
+  "specijalizacija": "kardiologija",
+  "opis": "pregled",
+  "cena": 1800,
+  "trajanje": 20
+},
+{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4ff8"
+  },
+  "sifra": "kardiologijaPregled3",
+  "specijalizacija": "kardiologija",
+  "opis": "pregled",
+  "cena": 13000,
+  "trajanje": 50
+},
+{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4ff9"
+  },
+  "sifra": "kardiologijaPregled4",
+  "specijalizacija": "kardiologija",
+  "opis": "pregled",
+  "cena": 3250,
+  "trajanje": 25
+},
+{
+  "_id": {
+    "$oid": "64d395f0ac8313b53b3c4ffa"
+  },
+  "sifra": "otorinolarignologijaPregled1",
+  "specijalizacija": "otorinolaringologija",
+  "opis": "pregled",
+  "cena": 1200,
+  "trajanje": 20
+},
+{
+  "_id": {
+    "$oid": "64d92ed547b4088309422a1e"
+  },
+  "sifra": "neurologijaPregled3",
+  "specijalizacija": "neurologija",
+  "opis": "pokusaj",
+  "cena": 1000,
+  "trajanje": 21,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4abbd4955e1442792dd5c"
+  },
+  "sifra": "asdasdasd",
+  "specijalizacija": "pedijatrija",
+  "opis": "btiririri",
+  "cena": 12000,
+  "trajanje": 30,
+  "__v": 0
+}]

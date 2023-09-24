@@ -1,0 +1,158 @@
+<!--navbar https://getbootstrap.com/docs/5.3/components/navbar/-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href=""><img src="../../assets/logo2.png" class="navbar-brand" width="50" height="50" id="vrh">Ordinacija Doktorović</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end align-center" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/pacijent" *ngIf="tipKorisnika == 'pacijent'">Nazad</a>
+            <a class="nav-link" href="/lekar" *ngIf="tipKorisnika == 'lekar'">Nazad</a>
+            <a class="nav-link" href="/menadzer" *ngIf="tipKorisnika == 'menadzer'">Nazad</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<div class="bg-light text-dark text-center">
+    <div style="background-color: rgba(130, 166, 228, 0.134);">
+        <h2 class="d-flex justify-content-center text-dark">Promena lozinke</h2>
+    </div>
+    <div clas="text-center">
+        <br>
+    
+    
+        <!--forma ideja sa sajta https://getbootstrap.com/docs/5.0/forms/form-control/-->
+        <form>
+        <div class="row mb-3 px-5 justify-content-center">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Unesite staru lozinku:</label>
+          <div class="col-sm-10" style="width: 50%">
+            <input type="password" class="form-control col-sm-2" name="inputEmail3"  [(ngModel)]="unosStareLozinke">
+          </div>
+<!--
+          <div class="col-sm-10" style="width: 50%" [class.greska]="true">
+            {{porukaA}}
+          </div>
+-->
+
+        </div>
+
+        <div class="row mb-3 px-5 justify-content-center">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Unesite novu lozinku:</label>
+            <div class="col-sm-10" style="width: 50%">
+                <input type="password" class="form-control col-sm-2" name="inputPassword3" [(ngModel)]="unosNoveLozinke">
+            </div>
+<!--
+            <div class="col-sm-10" style="width: 50%" [class.greska]="true">
+                {{porukaB}}
+            </div>
+-->
+
+        </div>
+        
+        <div class="row mb-3 px-5 justify-content-center">
+            <label for="inputPassword33" class="col-sm-2 col-form-label">Potvrdite novu lozinku:</label>
+            <div class="col-sm-10" style="width: 50%">
+              <input type="password" class="form-control col-sm-2" name="inputPassword33" [(ngModel)]="potvrdaNoveLozinke">
+            </div>
+<!--
+            <div class="col-sm-10" style="width: 50%" [class.greska]="true">
+                {{porukaC}}
+            </div>
+-->
+
+        </div>
+        
+        <button class="btn btn-primary" (click)="promeniLozinku()">Promeni lozinku</button>
+        <div class="bg-danger text-light">{{porukaA}}{{porukaB}}{{porukaC}}</div>
+        </form>
+    
+    
+    </div>
+</div>
+
+<!--footer ideja sa sajta https://mdbootstrap.com/docs/standard/navigation/footer/-->
+<footer class="text-center text-lg-start bg-light text-muted">
+  
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    </section>
+    
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Ordinacija Doktorović
+            </h6>
+            <p>
+              Ordinacija Doktorović počela je sa radom sada već davne 2015. godine.
+              Danas smo jedna od najpouzdanijih i najopremljnijih ordinacija u Beogradu.
+            </p>
+          </div>
+  
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Linkovi
+            </h6>
+            <p>
+              <a href="" class="text-reset">Početna</a>
+            </p>
+            <p>
+              <a href="#tim" class="text-reset">Naš tim</a>
+            </p>
+            <p>
+              <a href="/login" class="text-reset">Prijava</a>
+            </p>
+            <p>
+              <a href="/registracija" class="text-reset">Registracija</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4" id="kontakt">Kontakt</h6>
+            <p><img src="../../assets/home.png" width="20" height="20"> Bulevar Neki 14a, 11000 Beograd, Srbija</p>
+            <p>
+              <img src="../../assets/mail.png" width="20" height="20">
+              ordinacija@doktorovic.com
+            </p>
+            <p><img src="../../assets/call.png" width="20" height="20"> 011 124 1551</p>
+            <p><img src="../../assets/radno_vreme.jpg" width="20" height="20"> Radno vreme: 09 - 17h </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold">dl200129d</a>
+    </div>
+  </footer>
+
+<!--
+<h2>Promena lozinke</h2>
+<br>
+
+    <table>
+        <tr>
+            <td>Unesite staru lozinku:</td>
+            <td><input type="password" [(ngModel)]="unosStareLozinke"></td>
+            <td [class.greska]="true">{{porukaA}}</td>
+        </tr>
+        <tr>
+            <td>Unesite novu lozinku:</td>
+            <td><input type="password" [(ngModel)]="unosNoveLozinke"></td>
+            <td [class.greska]="true">{{porukaB}}</td>
+        </tr>
+        <tr>
+            <td>Potvrdite novu lozinku:</td>
+            <td><input type="password" [(ngModel)]="potvrdaNoveLozinke"></td>
+            <td [class.greska]="true">{{porukaC}}</td>
+        </tr>
+        <tr>
+            <td colspan="3"><button (click)="promeniLozinku()">Promeni lozinku</button></td>
+        </tr>
+    </table>
+-->
+
+

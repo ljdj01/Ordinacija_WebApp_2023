@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "64d3a0c8ac8313b53b3c5003"
+  },
+  "lekar": "ceda",
+  "pregled": "kardiologijaPregled3"
+},
+{
+  "_id": {
+    "$oid": "64d3a0c8ac8313b53b3c5004"
+  },
+  "lekar": "ceda",
+  "pregled": "kardiologijaPregled4"
+},
+{
+  "_id": {
+    "$oid": "64d671fec1c4bb13b7d29ad1"
+  },
+  "lekar": "mika",
+  "pregled": "alergologijaPregled1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d79de67d44c2824cba6f5d"
+  },
+  "lekar": "ana",
+  "pregled": "pedijatrijaPregled1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d79de67d44c2824cba6f5f"
+  },
+  "lekar": "ana",
+  "pregled": "pedijatrijaPregled2",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d79de67d44c2824cba6f61"
+  },
+  "lekar": "ana",
+  "pregled": "pedijatrijaPregled3",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64da0f1759e03e3b508812cd"
+  },
+  "lekar": "mara",
+  "pregled": "otorinolarignologijaPregled1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4a7794955e1442792dcc7"
+  },
+  "lekar": "laza",
+  "pregled": "neurologijaPregled1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4a7794955e1442792dcc9"
+  },
+  "lekar": "laza",
+  "pregled": "neurologijaPregled2",
+  "__v": 0
+}]

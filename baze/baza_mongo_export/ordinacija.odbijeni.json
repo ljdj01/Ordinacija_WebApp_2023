@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "64d8f69d8437bde2c9ea145f"
+  },
+  "korisnicko_ime": "asd@Aa1sd.com",
+  "email": "asd@Aa1sd.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d8f6ca8437bde2c9ea146d"
+  },
+  "korisnicko_ime": "ana2",
+  "email": "ana@gmail.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e496d340ac6ac36af51d02"
+  },
+  "korisnicko_ime": "asdf",
+  "email": "slika@b.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4977540ac6ac36af51d15"
+  },
+  "korisnicko_ime": "ana3",
+  "email": "ana3@gmail.com",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4ab104955e1442792dd3b"
+  },
+  "korisnicko_ime": "npc",
+  "email": "npc@mail.com",
+  "__v": 0
+}]

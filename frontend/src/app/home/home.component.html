@@ -1,0 +1,202 @@
+<!--navbar ideja https://getbootstrap.com/docs/5.3/components/navbar/-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../../assets/logo2.png" class="navbar-brand" width="50" height="50" id="vrh">Ordinacija Doktorović</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end align-center" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#tim">Naš tim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontakt">Kontakt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/registracija">Registracija</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login">Prijava</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<!--ideja za carousel https://getbootstrap.com/docs/5.3/components/carousel/-->
+<div id="carouselExampleCaptions" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../../assets/kardiologija.jpg" class="d-block w-100" alt="kardiologija">
+        <div class="carousel-caption d-none d-md-block text-bg-light opacity-75">
+          <h2>Kardiologija</h2>
+          <p>Oblast interne medicine koja izučava bolesti srca i krvnih sudova. </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/alergologija.jpg" class="d-block w-100" alt="alergologija">
+        <div class="carousel-caption d-none d-md-block text-bg-light opacity-75">
+          <h2>Alergologija</h2>
+          <p>Medicinska specijalnost koja brine o bolestima uzrokovanim nenormalnim odgovorom organizma na njegovo dobro podnošljivo okruženje.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/neurologija.jpg" class="d-block w-100" alt="neurologija">
+        <div class="carousel-caption d-none d-md-block text-bg-light opacity-75">
+          <h2>Neurologija</h2>
+          <p>Medicinska disciplina koja istražuje strukturu, funkcije i bolesti nervnog sistema. </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/pedijatrija.jpg" class="d-block w-100" alt="pedijatrija">
+        <div class="carousel-caption d-none d-md-block text-bg-light opacity-75">
+          <h2>Pedijatrija</h2>
+          <p>Grana medicine koja je definisana objektom svog interesa − detetom.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../../assets/orl.jpg" class="d-block w-100" alt="orl">
+        <div class="carousel-caption d-none d-md-block text-bg-light opacity-75">
+          <h2>Otorinolaringologija</h2>
+          <p>Grana medicine koja se bavi bolestima uva, nosa i grla.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!--tabela ideja https://getbootstrap.com/docs/5.3/content/tables/-->
+ <div class="bg-light">
+  <div class="container table-responsive" style="width:100%">
+    <br>
+  <h2 class="d-flex justify-content-center text-dark"> <a id="tim">Naš tim</a></h2>
+
+  
+  <div class="container bg-light d-md-flex justify-content-center">
+    <div class="container d-flex justify-content-center px-0"><input type="text" [(ngModel)]="unosIme" placeholder="Traži ime" class="col-md-12"></div>
+    <div class="container d-flex justify-content-center px-0"><input type="text" [(ngModel)]="unosPrezime" placeholder="Traži prezime" class="col-md-12"></div>
+    <div class="container d-flex justify-content-center px-0"><input type="text" [(ngModel)]="unosSpecijalizacija" placeholder="Traži spec." class="col-md-12"></div>
+    <div class="container d-flex justify-content-center bg-light col-md-1"><button class="btn btn-primary px-1 py-1" (click)="pretraga()">
+      <!--<img src="../../assets/lupa.png" width="30" height="30" class="img-fluid img-thumbnail">-->Pretraga
+    </button></div>
+  </div>
+  
+  <br>
+  <table class="table table-striped table-bordered align-middle table-hover" id="sortTable">
+  <thead class="table-dark">
+    <tr class="align-bottom">
+      <th>
+        <div class="d-flex">
+          <div class="me-auto align-self-center">Ime:</div>
+          <div class=""><button class="btn btn-dark px-1 py-1"><img src="../../assets/a-z.png" width="25" height="25" class="img-fluid img-thumbnail" (click)="sortiranje('ime', true)"></button></div>
+          <div class=""><button class="btn btn-dark px-1 py-1"><img src="../../assets/z-a.png" width="25" height="25" class="img-fluid img-thumbnail" (click)="sortiranje('ime', false)"></button></div>
+        </div>
+      </th>
+      <th>
+        <div class="d-flex">
+          <div class="me-auto align-self-center">Prezime:</div>
+          <div class=""><button class="btn btn-dark px-1 py-1"><img src="../../assets/a-z.png" width="25" height="25" class="img-fluid img-thumbnail" (click)="sortiranje('prezime', true)"></button></div>
+          <div class=""><button class="btn btn-dark px-1 py-1"><img src="../../assets/z-a.png" width="25" height="25" class="img-fluid img-thumbnail" (click)="sortiranje('prezime', false)"></button></div>
+        </div>
+      </th>
+      <th>
+        <div class="d-flex">
+          <div class="me-auto align-self-center">Specijalizacija:</div>
+          <div class=""><button class="btn btn-dark px-1 py-1"><img src="../../assets/a-z.png" width="25" height="25" class="img-fluid img-thumbnail" (click)="sortiranje('specijalizacija', true)"></button></div>
+          <div class=""><button class="btn btn-dark px-1 py-1"><img src="../../assets/z-a.png" width="25" height="25" class="img-fluid img-thumbnail" (click)="sortiranje('specijalizacija', false)"></button></div>
+        </div>
+      </th>
+      <th class="align-self-center align-middle">
+        <div class="d-flex justify-content-center text-center">
+          Slika:
+        </div>
+      </th>
+    </tr>
+  </thead>
+  
+  <tbody class="table-group-divider">
+  <tr *ngFor="let n of lekariZaPrikaz">
+    <td><div class="d-flex justify-content-start">{{n.ime}}</div></td>
+    <td><div class="d-flex justify-content-start">{{n.prezime}}</div></td>
+    <td><div class="d-flex justify-content-center">{{n.specijalizacija}}</div></td>
+    <td>
+      <div class="d-flex justify-content-center">
+      <img src="{{n.urlSlika}}" width="50" height="50" class="img-fluid img-thumbnail">
+      <!--<a href="{{n.urlSlika}}">link</a>-->
+      </div>
+    </td>
+  </tr>
+  </tbody>
+  </table>
+  </div>
+ </div>
+
+ <!--footer ideja sa sajta https://mdbootstrap.com/docs/standard/navigation/footer/-->
+<footer class="text-center text-lg-start bg-light text-muted">
+  
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  </section>
+  
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Ordinacija Doktorović
+          </h6>
+          <p>
+            Ordinacija Doktorović počela je sa radom sada već davne 2015. godine.
+            Danas smo jedna od najpouzdanijih i najopremljnijih ordinacija u Beogradu.
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Linkovi
+          </h6>
+          <p>
+            <a href="#vrh" class="text-reset">Na vrh</a>
+          </p>
+          <p>
+            <a href="#tim" class="text-reset">Naš tim</a>
+          </p>
+          <p>
+            <a href="/login" class="text-reset">Prijava</a>
+          </p>
+          <p>
+            <a href="/registracija" class="text-reset">Registracija</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4" id="kontakt">Kontakt</h6>
+          <p><img src="../../assets/home.png" width="20" height="20"> Bulevar Neki 14a, 11000 Beograd, Srbija</p>
+          <p>
+            <img src="../../assets/mail.png" width="20" height="20">
+            ordinacija@doktorovic.com
+          </p>
+          <p><img src="../../assets/call.png" width="20" height="20"> 011 124 1551</p>
+          <p><img src="../../assets/radno_vreme.jpg" width="20" height="20">Radno vreme: 09 - 17h </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold">dl200129d</a>
+  </div>
+</footer>

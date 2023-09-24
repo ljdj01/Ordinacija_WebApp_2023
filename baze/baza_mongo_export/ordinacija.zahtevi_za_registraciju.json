@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "64cbb8f2b51a784e37ae4d4e"
+  },
+  "korisnicko_ime": "likusa",
+  "lozinka": "asd@Aa1sd.com",
+  "ime": "l",
+  "prezime": "l",
+  "adresa": "lll",
+  "kontakt_telefon": "ll12",
+  "email": "likusa@mail.com",
+  "urlSlika": "http://localhost:4000/images/likusaProfileImage.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64cbba5eb51a784e37ae4d5d"
+  },
+  "korisnicko_ime": "cvet",
+  "lozinka": "cvet123C@",
+  "ime": "c",
+  "prezime": "v",
+  "adresa": "v",
+  "kontakt_telefon": "vvvv",
+  "email": "cvet@mail.com",
+  "urlSlika": "http://localhost:4000/images/cvetProfileImage.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4a1bc4955e1442792dc47"
+  },
+  "korisnicko_ime": "profil",
+  "lozinka": "profil!1Aq",
+  "ime": "PRofil",
+  "prezime": "Profilovic",
+  "adresa": "PRofilska 15",
+  "kontakt_telefon": "0600002540",
+  "email": "profil@gmail.com",
+  "urlSlika": "http://localhost:4000/images/profilProfileImage.png",
+  "__v": 0
+}]

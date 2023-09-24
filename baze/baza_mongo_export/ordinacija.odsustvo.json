@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "64d7c63835b3d2681365dc9a"
+  },
+  "lekar": "laza",
+  "datumPocetka": "Sat Aug 26 2023 02:00:00 GMT+0200 (Central European Summer Time)",
+  "datumPovratka": "Sat Sep 02 2023 02:00:00 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d7e6b67111fed16cfc0c2f"
+  },
+  "lekar": "laza",
+  "datumPocetka": "Fri Sep 01 2023 00:00:00 GMT+0200 (Central European Summer Time)",
+  "datumPovratka": "Fri Sep 08 2023 00:00:00 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4a87a4955e1442792dcf4"
+  },
+  "lekar": "laza",
+  "datumPocetka": "Mon Oct 02 2023 00:00:00 GMT+0200 (Central European Summer Time)",
+  "datumPovratka": "Mon Oct 09 2023 00:00:00 GMT+0200 (Central European Summer Time)",
+  "__v": 0
+}]

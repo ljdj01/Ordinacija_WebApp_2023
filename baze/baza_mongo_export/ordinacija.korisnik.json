@@ -1,0 +1,153 @@
+[{
+  "_id": {
+    "$oid": "64d520c682c237094671266e"
+  },
+  "korisnicko_ime": "ana",
+  "lozinka": "ana123",
+  "ime": "Ana",
+  "prezime": "Anic",
+  "adresa": "asdads",
+  "kontakt_telefon": "066 123 1333",
+  "email": "ana@ana.com",
+  "tip": "lekar",
+  "brLicence": "1001",
+  "specijalizacija": "pedijatrija",
+  "ogranak": "Zemun",
+  "urlSlika": "http://localhost:4000/images/anaProfileImage.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d520c682c237094671266f"
+  },
+  "korisnicko_ime": "pera",
+  "lozinka": "pera!1Aq",
+  "ime": "Petar",
+  "prezime": "Peric",
+  "adresa": "Ulica Aba 12",
+  "kontakt_telefon": "066 123 2000",
+  "email": "yolifa2513@avidapro.com",
+  "tip": "pacijent",
+  "brLicence": "",
+  "specijalizacija": "",
+  "ogranak": "",
+  "urlSlika": "http://localhost:4000/images/peraProfileImage.jpg"
+},
+{
+  "_id": {
+    "$oid": "64d520c682c2370946712670"
+  },
+  "korisnicko_ime": "menadzer",
+  "lozinka": "menadzer123",
+  "ime": "-",
+  "prezime": "-",
+  "adresa": "-",
+  "kontakt_telefon": "066 123 9999",
+  "email": "-",
+  "tip": "menadzer",
+  "brLicence": "-",
+  "specijalizacija": "-",
+  "ogranak": "-"
+},
+{
+  "_id": {
+    "$oid": "64d520c682c2370946712671"
+  },
+  "korisnicko_ime": "laza",
+  "lozinka": "laza123",
+  "ime": "Laza",
+  "prezime": "Lazaric",
+  "adresa": "Adresa 12",
+  "kontakt_telefon": "+381641233214",
+  "email": "laza@neuro.com",
+  "urlSlika": "http://localhost:4000/images/lazaProfileImage.jpg",
+  "tip": "lekar",
+  "brLicence": "101253415",
+  "specijalizacija": "neurologija",
+  "ogranak": "Zemun"
+},
+{
+  "_id": {
+    "$oid": "64d520c682c2370946712672"
+  },
+  "korisnicko_ime": "mika",
+  "lozinka": "mika123",
+  "ime": "Mika",
+  "prezime": "Mitrovic",
+  "adresa": "Ulica Duga 13",
+  "kontakt_telefon": "0602580002",
+  "email": "mika@aler.com",
+  "urlSlika": "http://localhost:4000/images/mikaProfileImage.jpg",
+  "tip": "lekar",
+  "brLicence": "1005",
+  "specijalizacija": "alergologija",
+  "ogranak": "Vračar"
+},
+{
+  "_id": {
+    "$oid": "64d520c682c2370946712673"
+  },
+  "korisnicko_ime": "ceda",
+  "lozinka": "ceda123",
+  "ime": "Cedomir",
+  "prezime": "Cedomir",
+  "adresa": "Bulevar JNA 15",
+  "kontakt_telefon": "064 124 7879",
+  "email": "ceda@kard.com",
+  "urlSlika": "http://localhost:4000/images/cedaProfileImage.jpg",
+  "tip": "lekar",
+  "brLicence": "1020",
+  "specijalizacija": "kardiologija",
+  "ogranak": "Vračar"
+},
+{
+  "_id": {
+    "$oid": "64d520c682c2370946712674"
+  },
+  "korisnicko_ime": "mara",
+  "lozinka": "mara123",
+  "ime": "Mara",
+  "prezime": "Maric",
+  "adresa": "Ulica Neka bb",
+  "kontakt_telefon": "063 223 1101",
+  "email": "mara@orl.com",
+  "urlSlika": "http://localhost:4000/images/maraProfileImage.jpg",
+  "tip": "lekar",
+  "brLicence": "1024",
+  "specijalizacija": "otorinolaringologija",
+  "ogranak": "Vračar"
+},
+{
+  "_id": {
+    "$oid": "64d520c682c2370946712675"
+  },
+  "korisnicko_ime": "zika",
+  "lozinka": "zika123",
+  "ime": "Zika",
+  "prezime": "Zikic",
+  "adresa": "Ulica Zika bb",
+  "kontakt_telefon": "063 123 3217",
+  "email": "yolifa2513@avidapro.comm",
+  "urlSlika": "http://localhost:4000/images/zikaProfileImage.jpg",
+  "tip": "pacijent",
+  "brLicence": "",
+  "specijalizacija": "",
+  "ogranak": ""
+},
+{
+  "_id": {
+    "$oid": "64e4aacc4955e1442792dd2b"
+  },
+  "korisnicko_ime": "lekar",
+  "lozinka": "lekar!1Aq",
+  "ime": "lekar",
+  "prezime": "lekarski",
+  "adresa": "dr15",
+  "kontakt_telefon": "0628792311",
+  "email": "lekar@pedijatrija.com",
+  "urlSlika": "http://localhost:4000/images/defaultProfileImage.png",
+  "tip": "lekar",
+  "brLicence": "1222",
+  "specijalizacija": "pedijatrija",
+  "ogranak": "Zemun",
+  "__v": 0
+}]

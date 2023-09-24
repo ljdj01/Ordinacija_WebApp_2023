@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "64d9345410af94e19bda482b"
+  },
+  "naziv": "neurologija"
+},
+{
+  "_id": {
+    "$oid": "64d9345410af94e19bda482c"
+  },
+  "naziv": "kardiologija"
+},
+{
+  "_id": {
+    "$oid": "64d9345410af94e19bda482d"
+  },
+  "naziv": "alergologija"
+},
+{
+  "_id": {
+    "$oid": "64d9345410af94e19bda482e"
+  },
+  "naziv": "pedijatrija"
+},
+{
+  "_id": {
+    "$oid": "64d9345410af94e19bda482f"
+  },
+  "naziv": "otorinolaringologija"
+}]

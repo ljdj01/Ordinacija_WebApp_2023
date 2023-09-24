@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "64d51b773ded66682a2fe931"
+  },
+  "pacijent": "pera",
+  "lekar": "laza",
+  "datum": "Thu Aug 24 2023 13:30:00 GMT+0200 (Central European Summer Time)",
+  "vreme": "13:30",
+  "trajanje": "30",
+  "pregled": "neurologijaPregled1",
+  "ogranak": "Zemun",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d539b90f8bee18e63510cc"
+  },
+  "pacijent": "zika",
+  "lekar": "ceda",
+  "datum": "Sat Aug 19 2023 13:30:00 GMT+0200 (Central European Summer Time)",
+  "vreme": "13:30",
+  "trajanje": "50",
+  "pregled": "kardiologijaPregled3",
+  "ogranak": "Vračar",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d62405a7a4d75f796588a5"
+  },
+  "pacijent": "pera",
+  "lekar": "ana",
+  "datum": "Sat Aug 12 2023 11:00:00 GMT+0200 (Central European Summer Time)",
+  "vreme": "11:00",
+  "trajanje": "30",
+  "pregled": "pedijatrijaPregled3",
+  "ogranak": "Zemun",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d67dd2c1c4bb13b7d29be0"
+  },
+  "pacijent": "zika",
+  "lekar": "laza",
+  "datum": "Thu Aug 31 2023 13:00:00 GMT+0200 (Central European Summer Time)",
+  "vreme": "13:00",
+  "trajanje": "30",
+  "pregled": "neurologijaPregled1",
+  "ogranak": "Zemun",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64da0ed459e03e3b508812a6"
+  },
+  "pacijent": "pera",
+  "lekar": "mara",
+  "datum": "Wed Aug 23 2023 13:24:00 GMT+0200 (Central European Summer Time)",
+  "vreme": "13:24",
+  "trajanje": "20",
+  "pregled": "orlBrisanje",
+  "ogranak": "Vračar",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64da0f7759e03e3b508812e5"
+  },
+  "pacijent": "zika",
+  "lekar": "mara",
+  "datum": "Mon Aug 14 2023 14:00:00 GMT+0200 (Central European Summer Time)",
+  "vreme": "14:00",
+  "trajanje": "20",
+  "pregled": "orlBrisanje",
+  "ogranak": "Vračar",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64e4a5184955e1442792dc6f"
+  },
+  "pacijent": "pera",
+  "lekar": "ana",
+  "datum": "Fri Aug 25 2023 10:45:00 GMT+0200 (Central European Summer Time)",
+  "vreme": "10:45",
+  "trajanje": "20",
+  "pregled": "pedijatrijaPregled2",
+  "ogranak": "Zemun",
+  "__v": 0
+}]
